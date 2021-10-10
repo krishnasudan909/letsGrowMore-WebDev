@@ -1,0 +1,14 @@
+.card{
+    border: 2px solid black;
+}
+.card-body{
+    border-top: 2px solid black;
+    background-color: rgb(231, 231, 188);
+}
+
+.card-title{
+    color:red;
+}
+.card-text{
+    color:blue;
+}

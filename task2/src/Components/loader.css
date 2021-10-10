@@ -1,0 +1,35 @@
+.bouncer-container{
+    display: flex;
+    justify-content: center;
+}
+.bouncer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width:100px;
+    height:100px;
+}
+.bouncer div{
+    width:20px;
+    height:20px;
+    background: #066bdf;
+    border-radius:50%;
+    animation: bouncer 0.5s ease infinite alternate;
+}
+.bouncer div:nth-child(2){
+    background: yellow;
+    animation-delay: 0.1s;
+}
+.bouncer div:nth-child(3){
+    background: rgb(3, 194, 3);
+    animation-delay: 0.2s;
+}
+.bouncer div:nth-child(4){
+    background: red;
+    animation-delay: 0.3s;
+}
+
+@keyframes bouncer{
+    from { transform: translateY(0)}
+    to{ transform: translateY(-75px);}
+}
