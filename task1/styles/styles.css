@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.13);
+    width:100%;
+    height:4em;
+    position: fixed;
+    z-index: 5;
+}
+.navigation-bar h1{
+    color: white;
+    font-size: 2em;
+}
+.navbar-links a{
+    margin: 0 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+.navigation-bar h1:hover{
+    cursor: pointer;
+}
+.navbar-links a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+/*carousel Home*/
+.carousel-inner{
+    height:25rem;
+    color: white;
+}
+.carousel-item{
+    padding:6em;
+    background-size: cover; 
+    background-repeat:no-repeat;
+}
+.carousel-item .container-fluid{
+    padding-left:4.5vw;
+}
+.wtz-btn-2{
+    background-color: purple;
+    color: white;
+    font-weight: bolder;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+}
+.wtz-btn-2:hover{
+    background-color: yellow;
+    color:black;
+}
+
+/* Welcome to Zippy*/
+#welcome-to-zippy{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#welcome-to-zippy>h1{
+    font-weight: bolder;
+}
+.zippy1stDiv{
+    margin: 2% 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.zippy1stDiv > p{
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px;
+}
+.zippy2ndDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.zippy2ndDiv > span{
+    margin: 0% 2% ;
+}
+.fas{
+    color:transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    width: 60px;
+}
+.fas:hover{
+    -webkit-text-stroke-color: black;
+}
+.far{
+    color:transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    width: 60px;
+}
+.far:hover{
+    -webkit-text-stroke-color: black;
+}
+.fas-border{
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 15px;
+    background-color: purple;
+}
+.fas-border:hover{
+    background-color: yellow;
+}
+.span-heading{
+    color:purple;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.wtz-btn{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+}
+.wtz-btn:hover{
+    background-color: purple;
+    color: white;
+}
+.division{
+    width:60vw;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/* Project*/
+#project > h1{
+    font-weight: bolder;
+}
+.projects{
+    text-align: center;
+}
+.projects > h1{
+   margin-bottom: 2%;
+}
+
+.project-img{
+    width:23vw;
+    height:45vh;
+}
+.project-name{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.project-description{
+    margin-left: 5%;
+    margin-top: -3%;
+}
+.project-btn{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+}
+.project-btn:hover{
+    background-color: purple;
+    color: white;
+    border:2px solid white;
+    margin-bottom: -2px;
+}
+.project-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:3%;
+}
+.project-items{
+    background-color: purple;
+    color:white;
+    text-align: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Pricing table*/
+.pricing-section{
+    margin-top: 3%;
+    text-align: center;
+}
+.pricing-section>h1{
+    font-weight: bolder;
+}
+.pricing-plans-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pricing-plans-table>span{
+    margin: 3%;
+    margin-bottom: 0;
+}
+.pricing-plans-table>span:nth-child(2){
+    padding-left: 3%;
+    padding-right: 3%;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+.pricing-heading{
+    font-weight: bolder;
+}
+.charges{
+    color: rgba(128, 128, 128, 0.774);
+    margin: 7% 0;
+}
+.pricing-plans-table>span>p{
+    line-height: 0.5;
+    font-weight: bold;
+}
+.pricing-btn{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    padding:10px 30px;
+    border:none;
+    border-radius: 5px;
+}
+.pricing-btn:hover{
+    background-color: purple;
+    color: white;
+}
+
+/* Video Projects*/
+.videoProjects{
+    background-color: purple;
+    margin-top:3%;
+    margin-bottom: 3%;
+    text-align: center;
+    height: 77vh;
+    padding:20px;
+}
+.video-projects-heading{
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 1.5%;
+}
+.flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+}  
+
+/* Zippy Team*/
+.zippy-team{
+    text-align: center;
+}
+.zippy-team>h1{
+    font-weight: bolder;
+}
+.first-row,.second-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.first-row{
+    margin-bottom: -3%;
+}
+
+.person{
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    width: 150px;
+    height:150px;
+    align-items: center;
+    justify-content: center;
+    background-repeat: none;
+    background-size: cover;
+    color: transparent;
+}
+.person-details{
+    margin: 3%;
+}
+.person-details>h6{
+    font-weight: bolder;
+}
+.person-details>p{
+   color: grey;
+   font-weight: bold;
+}
+.team-profile{
+    border-radius: 50%;
+    width: 150px;
+    height:150px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.team-profile > i{
+    margin:3%;
+}
+.team-profile:hover{
+    background-color:rgba(128, 0, 128, 0.384);
+    color: white;
+}
+
+/* Life in Zippy*/
+.life-in-zippy{
+    background-color: rgb(197, 193, 193);
+    margin-top:3%;
+    text-align: center;
+    height: 77vh;
+    padding:20px;
+}
+.life-in-zippy > h1{
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 1.5%;
+}
+
+/* Newsletter */
+.newletter{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:50vh;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.newletter>h1{
+    color: white;
+    font-weight: bolder;
+    padding-top: 6.5%;
+}
+.signup-detail>input{
+    height:10vh;
+    padding:10px;
+    color: grey;
+    font-weight: bolder;
+    font-size: 4vh;
+    border: none;
+    border-radius: 10px;
+}
+.signup-detail>button{
+    height:10vh;
+}
+
+/* Blog */
+.zippy-blog{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.zippy-blog>h1{
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+.post>h5{
+    font-weight: bolder;
+}
+.blog-time{
+    color: grey;
+}
+.post>p{
+    font-weight: bold;
+}
+.blog-posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.blog-posts>span:nth-child(2){
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.blog-btn{
+    background-color: rgb(187, 183, 183);
+    color: black;
+    font-weight: bolder;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+}
+.blog-btn:hover{
+    background-color: yellow;
+}
+
+/*Contact*/
+.contact-map {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+.map {
+    width: 50%;
+    height:90vh;
+}
+.contact {
+    width: 50%;
+    height:90vh;
+    background-color: yellow;
+    padding: 20px;
+}
+.contact h1 {
+    font-weight: bolder;
+}
+.contact>span > h4 {
+    font-weight: bold;
+}
+.text {
+    width: 300px;
+    height: 35px;
+}
+.contact >span> textarea {
+    width: 300px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.contact-btn {
+    width: 300px;
+    height: 50px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    border:none;
+}
+.contact-btn:hover {
+    background-color: yellow;
+    color: black;
+    border:2px solid black;
+    height:48px;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.social-media{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.social-media-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-media-icons > a{
+    color: black;
+}
+.address>h4{
+    font-weight: bolder;
+}
+.social-media>h4{
+    font-weight: bolder;
+}
+.footer-contact-us>h4{
+    font-weight: bolder;
+}
+
+/*Copyright*/
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+}
